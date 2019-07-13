@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="30dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    app:cardBackgroundColor="@color/cardview_dark_background">
+
+<LinearLayout
+    android:padding="7dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <!--<CheckBox-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/checkbox"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="50dp" />-->
+
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:id="@+id/textView_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/edit"
+                    android:layout_weight="1"
+                    android:src="@drawable/edit"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+        </LinearLayout>
+
+        <!--<TextView-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:textSize="17sp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:id="@+id/textView_description1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

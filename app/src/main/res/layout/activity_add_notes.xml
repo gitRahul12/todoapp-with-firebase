@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#d3f6f3"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<androidx.cardview.widget.CardView
+    app:cardElevation="20dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="200dp"
+    android:elevation="30dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/cardview_dark_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddNotes">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:paddingTop="20dp"
+        android:singleLine="true"
+        android:id="@+id/title"
+        android:hint="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/description"
+        android:hint="Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/addNotes"
+        android:layout_gravity="center"
+        android:text="Add Task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+</LinearLayout>
